@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(15, 0, 70);
+  color: white;
+  align-items: center;
+  padding: 0 20px; /* Menggunakan shorthand padding untuk kiri dan kanan */
+}
+
+#logo {
+  margin-right: auto; /* Menggunakan margin-right auto untuk memindahkan logo ke kiri */
+}
+
+.NavHeader {
+  display: flex;
+  gap: 10px;
+}
+
+.HeaderList {
+  color: white;
+  text-decoration: none;
+}
+
+.dicount {
+  background-color: black;
+  color: azure;
+  height: 200px;
+  padding: 20px; /* Menggunakan shorthand padding */
+}
+
+.maps {
+  color: rgb(95, 149, 244);
+  text-decoration: none;
+}
+
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Menggunakan shorthand padding */
+}
+.movies,
+.moviesList {
+  background-image: url("./pict/3d-render-rgb-neon-light-darkness-background-abstract-laser-lines-show-night-ultraviolet-spectrum-beam-scene-mock-up-web-banner_106651-3348\ copy.avif"); /* Ganti "link_ke_gambar.jpg" dengan URL gambar yang Anda inginkan */
+  background-size: cover; /* Menyesuaikan ukuran gambar agar mengisi area secara penuh */
+  background-position: center; /* Menyusun gambar di tengah */
+}
+
+.movies h1 {
+  color: white;
+}
+
+.movies a {
+  color: white;
+  text-decoration: none;
+}
+
+.moviesList {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Aboutfilms {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.title-film {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Get-Tickets {
+  background-color: rgb(246, 42, 42);
+  border-radius: 70px;
+  padding: 10px;
+  color: white;
+}
