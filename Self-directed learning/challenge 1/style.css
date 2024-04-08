@@ -1,5 +1,7 @@
 body {
+  margin: 0 auto; /* Menengahkan body di tengah layar */
   background-color: white;
+  position: relative;
 }
 
 .header {
@@ -7,11 +9,14 @@ body {
   background-color: rgb(15, 0, 70);
   color: white;
   align-items: center;
-  padding: 0 20px; /* Menggunakan shorthand padding untuk kiri dan kanan */
+  padding-right: 0px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
 }
 
 #logo {
-  margin-right: auto; /* Menggunakan margin-right auto untuk memindahkan logo ke kiri */
+  margin-right: auto;
 }
 
 .NavHeader {
@@ -28,7 +33,7 @@ body {
   background-color: black;
   color: azure;
   height: 200px;
-  padding: 20px; /* Menggunakan shorthand padding */
+  padding: 20px;
 }
 
 .maps {
@@ -40,13 +45,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px; /* Menggunakan shorthand padding */
+  padding: 0 20px;
 }
 .movies,
 .moviesList {
   background-image: url("./pict/3d-render-rgb-neon-light-darkness-background-abstract-laser-lines-show-night-ultraviolet-spectrum-beam-scene-mock-up-web-banner_106651-3348\ copy.avif"); /* Ganti "link_ke_gambar.jpg" dengan URL gambar yang Anda inginkan */
-  background-size: cover; /* Menyesuaikan ukuran gambar agar mengisi area secara penuh */
-  background-position: center; /* Menyusun gambar di tengah */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
 }
 
 .movies h1 {
@@ -61,9 +67,10 @@ body {
 .moviesList {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .Aboutfilms {
@@ -84,4 +91,51 @@ body {
   border-radius: 70px;
   padding: 10px;
   color: white;
+}
+
+.html-container {
+  background-color: black;
+  display: block;
+}
+
+.artikel-box {
+  display: flex;
+  background-color: rgb(54, 50, 50);
+}
+
+.content {
+  color: white;
+  background-color: rgb(37, 36, 36);
+  padding: 25px;
+}
+
+.inside-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-color: black;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-app-store-banner {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.mobile-app-store-banner p {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.rating {
+  margin-left: 10px;
+  font-size: 13px;
 }
