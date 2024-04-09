@@ -1,7 +1,10 @@
 body {
   margin: 0 auto;
   background-color: white;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  font-family: sans-serif;
 }
 
 .header {
@@ -12,7 +15,9 @@ body {
   padding-right: 0px;
   width: 100%;
   margin: 0;
-  position: fixed;
+  position: sticky;
+  z-index: 150px;
+  top: 0;
 }
 
 #logo {
@@ -138,4 +143,27 @@ body {
 .rating {
   margin-left: 10px;
   font-size: 13px;
+}
+
+.big-container-films {
+  background-image: url(./pict/Background.png);
+  color: aliceblue;
+}
+
+.contain-container-film {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0 20px 0;
+}
+
+.contain-container-second-film {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 30% 50px 20px;
 }
