@@ -17,8 +17,7 @@ prevButton.addEventListener("click", () => {
 // ------------------ 3 & 4 -----------------
 
 const firstChoiceButton = document.querySelector('[data-js="choice-button-1"]');
-const secondChoiceButton = document.querySelector(
-  '[data-js="choice-button-2"]'
+const secondChoiceButton = document.querySelector('[data-js="choice-button-2"]'
 );
 
 // 3. This event listener is connected properly. When clicked the button is shown active. However, the debug message doesn't appear in the debug console. Where is the error with this code?
