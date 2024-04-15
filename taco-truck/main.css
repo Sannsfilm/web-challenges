@@ -27,14 +27,3 @@ h2 {
   padding: 15px;
   border-radius: 3px;
 }
-.header {
-  background-color: var(--header-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  text-align: center;
-  margin-top: 5px;
-}
