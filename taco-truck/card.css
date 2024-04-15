@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+}
+
+li {
+  background-color: var(--card-bg);
+  list-style-type: none;
+  width: 40%;
+  color: var(--card-text);
+  padding: 10px 0px 20px 10px;
+  border-radius: 10px;
+}
