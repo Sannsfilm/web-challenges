@@ -16,6 +16,7 @@ const text =
   "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..";
 let numberOfLikes = 200;
 const isReported = true;
+const user = "sannfilms";
 
 // --^-- write your code here --^--
 
@@ -27,6 +28,7 @@ const isReported = true;
 console.log("title:", title);
 console.log("text:", text);
 console.log("number of like", numberOfLikes);
+console.log(user);
 console.log("is Reported", isReported);
 
 // --^-- write your code here --^--
