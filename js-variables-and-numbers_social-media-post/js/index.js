@@ -26,7 +26,7 @@ const isReported = true;
 // --v-- write your code here --v--
 console.log("title:", title);
 console.log("text:", text);
-// console.log("number of like", numberOfLike);
+console.log("number of like", numberOfLikes);
 console.log("is Reported", isReported);
 
 // --^-- write your code here --^--
