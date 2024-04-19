@@ -21,16 +21,17 @@ if (number % 2 === 0) {
 }
 console.log(number);
 
-// or with this versions
+// or with this version with booleans //
 
 // const number = 6;
 
 if (number % 2) {
-  console.log("odd number");
+  console.log("is odd number");
 } else {
   console.log("is even number");
 }
 console.log(number);
+
 
 // Part 3: Hotdogs
 const numberOfHotdogs = 4;
@@ -47,16 +48,15 @@ if (numberOfHotdogs < 5) {
 console.log();
 
 // Part 4: Daytime
-const currentHour = 20;
+const currentHour = 11;
 
-const statement = currentHour < 17 ? "Still need to learn..." : "Partytime!!!";
+const statement = currentHour < 17 /* das ist die bedingung */ ? "Still need to learn..." : "Partytime!!!";
 
 console.log(statement);
 
 // Part 5: Greeting
 const userName = "Archibald";
-const CoachName = "Coach";
-
-const greeting = "Hello " + (userName !== CoachName ? "Coach" : userName) + "!";
+const CoachName = "Andrea";
+const greeting = "Hello " + (userName !== CoachName? CoachName : userName) + "!";
 
 console.log(greeting);
