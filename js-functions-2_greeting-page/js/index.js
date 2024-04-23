@@ -22,6 +22,7 @@ Change the contents of this page depending on the current day and time.
 
 const display = document.querySelector('[data-js="display"]');
 const currentTime = new Date().getHours();
+
 function getGreeting() {
   if (currentTime >= 6 && currentTime <= 12) {
     return "Good Morning";

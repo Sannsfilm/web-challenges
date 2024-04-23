@@ -67,3 +67,5 @@ function logSeparator(exerciseNumber) {
 logSeparator(1);
 logSeparator(2);
 logSeparator(3);
+
+// --v-- write your code here --v--

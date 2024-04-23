@@ -13,18 +13,20 @@ const author = "Susan";
 let rating = 4.0;
 let sales = 120;
 
-/*
-2: Log all variables to the console, for example:
+// 2: Log all variables to the console, for example:
 
-Title: The Lord of the Javascript
-Author: Mario
-Rating: 4.2
-Sales: 120
+// Title: The Lord of the Javascript
+// Author: Mario
+// Rating: 4.2
+// Sales: 120
 
-Increase the number of sales and change the rating of the book afterwards.
-Then log all variables to the console again.
-*/
-logbookData();
+console.log("Title: " + title);
+console.log("Author: " + author);
+console.log("Rating: " + rating);
+console.log("Sales: " + sales);
+
+// Increase the number of sales and change the rating of the book afterwards.
+// Then log all variables to the console again.
 
 sales += 2;
 rating += 0.2;
