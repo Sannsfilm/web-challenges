@@ -21,15 +21,15 @@ Change the contents of this page depending on the current day and time.
 */
 
 const display = document.querySelector('[data-js="display"]');
-
+const currentTime = new Date().getHours();
 function getGreeting() {
-  if (new Date().getHours() >= 6 && new Date().getHours() <= 12) {
+  if (currentTime >= 6 && currentTime <= 12) {
     return "Good Morning";
-  } else if (new Date().getHours() >= 13 && new Date().getHours() <= 18) {
+  } else if (currentTime >= 13 && currentTime <= 18) {
     return "Good Afternoon";
-  } else if (new Date().getHours() >= 19 && new Date().getHours() <= 22) {
+  } else if (currentTime >= 19 && currentTime <= 22) {
     return "Good Evening";
-  } else if (new Date().getHours() >= 23 && new Date().getHours() <= 5) {
+  } else if (currentTime >= 23 && currentTime <= 5) {
     return "Good Night";
   }
 }
