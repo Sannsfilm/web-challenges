@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Create your Personal Profile</h1>
+      <form>
+        <p>
+          We want to get to know you! Please enter your personal information.
+        </p>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">First Name:</label>
+          <input type="text" id="input-first-name" name="name" required />
+          <label for="name">Last Name:</label>
+          <input type="text" id="input-last-name" name="name" required />
+          <label for="date">Your Birtday:</label>
+          <input type="date" id="input-birthday" name="date" required />
+          <p>
+            Can you tell us a little bit more? We want to annoy you with
+            unwanted ads.
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="color">Favourite Color:</label>
+          <input type="color" id="input-color" name="color" required />
+          <label for="email">What is your favourite pet?</label>
+          <select name="pet" id="select-pet">
+            <option value="">--Please choose an option</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="bird">Bird</option>
+            <option value="fish">Fish</option>
+            <option value="rabbit">Rabbit</option>
+            <option value="turtle">Turtle</option>
+            <option value="snake">Snake</option>
+            <option value="horse">Horse</option>
+            <option value="lizard">Lizard</option>
+            <option value="other">Other</option>
+          </select>
+        </fieldset>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
