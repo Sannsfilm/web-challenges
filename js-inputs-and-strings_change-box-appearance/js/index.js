@@ -24,13 +24,16 @@ const inputRotation = document.querySelector("[data-js='input-rotation']");
 const box = document.querySelector('[data-js="box"]');
 
 inputColor.addEventListener("input", () => {
-  box.style.backgroundColor = `hsl(${inputColor.value}deg 70% 60%)`;
+  //   box.style.backgroundColor = `hsl(${inputColor.value}deg 70% 60%)`;
+  box.style.backgroundColor = "hsl(" + inputColor.value + "deg, 70%, 60%)";
 });
 
 inputRadius.addEventListener("input", () => {
-  box.style.borderRadius = `${inputRadius.value}px`;
+  //   box.style.borderRadius = `${inputRadius.value}px`;
+  box.style.borderRadius = inputRadius.value + "px";
 });
 
 inputRotation.addEventListener("input", () => {
-  box.style.transform = `rotate(${inputRotation.value}deg)`;
+  //   box.style.transform = `rotate(${inputRotation.value}deg)`;
+  box.style.transform = "rotate(" + inputRotation.value + "deg)";
 });
