@@ -23,16 +23,27 @@ newPost.append(postContent);
 
 const footer = document.createElement("footer");
 footer.classList.add("post__footer");
+
 newPost.append(footer);
 
 const username = document.createElement("span");
 username.classList.add("post__username");
-username.textContent = "Sannfilms";
+username.textContent = "@Sannfilms";
 footer.append(username);
 
-const newButton = document.createElement("button");
-newButton.classList.add("post__button");
-newButton.nodeType = "button";
-newButton.setAttribute("data-js", "like-button");
-newButton.textContent = "♥ Like";
-footer.append(likeButton);
+const newLikeButton = document.createElement("button");
+newLikeButton.addEventListener("click", handleLikeButtonClick);
+newLikeButton.textContent = "♥  Like";
+footer.append(newLikeButton);
+
+// <article class="post">
+// <p class="post__content">
+//   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+// </p>
+// <footer class="post__footer">
+//   <span class="post__username">@username</span>
+//   <button type="button" class="post__button" data-js="like-button">
+//     ♥ Like
+//   </button>
+// </footer>
+// </article>
