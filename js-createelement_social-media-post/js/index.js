@@ -32,6 +32,7 @@ username.textContent = "@Sannfilms";
 footer.append(username);
 
 const newLikeButton = document.createElement("button");
+newLikeButton.classList.add("post__button");
 newLikeButton.addEventListener("click", handleLikeButtonClick);
 newLikeButton.textContent = "♥  Like";
 footer.append(newLikeButton);
