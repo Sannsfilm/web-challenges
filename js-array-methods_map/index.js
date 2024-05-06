@@ -26,7 +26,7 @@ const cards = [
 
 const lowerCaseAnswers = cards.map((card) => card.answer.toLowerCase());
 
-const questionsAndAnswers = cards.map((card) => {
+const questionAndAnswer = cards.map((card) => {
   return { question: card.question, answer: card.answer };
 });
 
@@ -34,6 +34,4 @@ const questionsAndAnswersTogether = cards.map((card) => {
   return `${card.question} - ${card.answer}`;
 });
 
-console.log(lowerCaseAnswers);
-console.log(questionsAndAnswers);
-console.log(questionsAndAnswersTogether);
+export { lowerCaseAnswers, questionsAndAnswersTogether, questionAndAnswer };
