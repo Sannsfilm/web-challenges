@@ -25,26 +25,25 @@ const cards = [
 ];
 
 const onlyCardWithIdTwo = cards.filter((card) => card.id === "2");
+console.log("onlyCardWithIdTwo : ", onlyCardWithIdTwo);
 
-console.log(onlyCardWithIdTwo);
+const allCardsWith3Tags = cards.filter((card) => card.tags.length === 3);
+console.log("allCardsWith3Tags: ", allCardsWith3Tags);
 
-const allCardsWith3Tags = cards.filter((card) => card.tags === "3");
+const allCardsThatAreNotBookmarked = cards.filter((card) => !card.isBookmarked);
+console.log("allCardsThatAreNotBookmarked : ", allCardsThatAreNotBookmarked);
 
-console.log(allCardsWith3Tags);
-
-const allCardsThatAreNotBookmarked = cards.filter(
-  (card) => card.isBookmarked === false
-);
-
-console.log(allCardsThatAreNotBookmarked);
-
-const allCardsWithTagsHTMLOrJSThatAreBookmarked = cards.filter(
-  (card) =>
-    card.isBookmarked === true &&
+const allCardsWithTagsHTMLOrJSThatAreBookmarked = cards.filter((card) => {
+  return (
+    card.isBookmarked &&
     (card.tags.includes("html") || card.tags.includes("js"))
+  );
+});
+console.log(
+  "allCardsWithTagsHTMLOrJSThatAreBookmarked: ",
+  allCardsWithTagsHTMLOrJSThatAreBookmarked
 );
 
-console.log(allCardsWithTagsHTMLOrJSThatAreBookmarked);
 export {
   onlyCardWithIdTwo,
   allCardsWith3Tags,
