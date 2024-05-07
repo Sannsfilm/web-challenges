@@ -8,7 +8,7 @@ const pageBookmarked = document.querySelector('[data-js="page-bookmarked"]');
 const pageCreate = document.querySelector('[data-js="page-create"]');
 const pageProfile = document.querySelector('[data-js="page-profile"]');
 
-const allPages = document.querySelectorAll('[data-js*="page"]');
+const allPages = document.querySelectorAll('[data-js*="page"]'); // * bedeutet mit alle daten mit page
 
 linkHome.addEventListener("click", () => {
   allPages.forEach((page) => {
