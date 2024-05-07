@@ -10,3 +10,4 @@ function showAnswers() {
   }
   const button = document.querySelector("[data-js='show-answers']");
   button.addEventListener("click", showAnswers);
+  
