@@ -10,7 +10,7 @@ const company = {
   location: "Hamburg",
 };
 
-const { name, course, location } = company;
+export const { course } = company;
 
 // example: export const {value1} = myObject;
 
@@ -23,7 +23,7 @@ const { name, course, location } = company;
 
 const user = { name: "John", years: 30 };
 
-const { name, years, isAdmin = false } = user;
+export const { name, years: age, isAdmin = false } = user;
 
 // EXERCISE 3
 // Extract the variables from the dog object and
@@ -35,7 +35,7 @@ const dog = {
   age: 5,
 };
 
-const { name: dogName, breed: dogBreed, age: dogAge } = dog;
+export const { name: dogName, breed: dogBreed, age: dogAge } = dog;
 
 console.log(dogName);
 
@@ -49,4 +49,4 @@ const person = {
   firstName: "Alex",
 };
 
-const { lastName = personLastName, ...moreInformation } = person;
+export const { lastName: personLastName, ...moreInformation } = person;
