@@ -3,13 +3,13 @@ import "./styles.css";
 export default function App() {
   return (
     <div>
-      <Greeting name="Susan" isCoach={false} />
+      <Greeting name="Feline" isCoach={true} />
     </div>
   );
 }
 
-function Greeting({ name, isCouch }) {
-  return <h1>{isCouch ? "Hello, Coach" : `Hello, ${name}!`}</h1>;
+function Greeting({ name, isCoach }) {
+  return <h1>{isCoach ? `Hello, ${name}!` : "Hello, Coach"}</h1>;
 }
 
 // src/App.js
