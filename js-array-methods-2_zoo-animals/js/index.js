@@ -4,24 +4,26 @@ import { zooAnimals } from "../utils/db.js";
 // Please implement the function 'hasAnimal' that gets an array of animals and an animal name
 // The function should return 'true' if the animal name is included in the array or 'false' if not.
 
-function hasAnimal(animals, animalName) {
-  const animalNameLower = animalName.toLowerCase();
-  return animals
-    .map((animal) => animal.toLowerCase())
-    .includes(animalNameLower);
-}
 
-// function hasAnimal(animals, animalName) {
-//   const lowerCaseAnimals = animals.map((animal) => {
-//     return animal.toLowerCase();
-//   });
-//   return lowerCaseAnimals.includes(animalName.toLowerCase());
-// }
+//  function hasAnimal(animlas, animalName) {
+//   return animals.includes(animalName);
+//  }
+
+
+// () = "Klammern" atau "Rundklammern"
+// {} = "geschweifte Klammern" atau "geschwungene Klammern"
+// ; = "Semikolon
+
 
 // Bonus:
 // Can you modify the function so that it works case-insensitive?
 // This means it should return true, even if you search for 'sheep' or 'SHEEP' or 'sHeEp'.
 // Hint: Remember the 'map' function
+
+function hasAnimal(animals, animalName) {
+  const animalNameLower = animalName.toLowerCase();
+  return animals.map((animal) => animal.toLowerCase()).includes(animalNameLower);
+}
 
 // -------------------------------------------------------------------------------------
 // ----- The following code is used for the browser preview. Please don't touch it -----
