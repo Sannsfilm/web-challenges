@@ -2,33 +2,16 @@ import React from "react";
 import "./styles.css";
 
 export default function App() {
-  return ( 
-    <button>
-    <ButtonElement
-      color = {"red"}
-      disabled = {}
-      text = {}
-    />
+  return <Button color="blue" disabled={false} text="Hello World" />;
+}
+
+function Button({ color, disabled, text }) {
+  return (
+    <button style={{ color }} disabled={disabled}>
+      {text}
     </button>
   );
 }
-
-export function ButtonElement(color, disabled, text) {
-return (
-<button onClick={text} style={{height: "100px"}}>
-{color}
-{disabled}
-{text}
-
-</button>
-);
-}
-
-
-
-
-
-
 
 // Tasks
 // 1. A Simple Button Component
@@ -53,5 +36,3 @@ return (
 // 🎉 Congratulations, you have created a very flexible button component!
 
 // However, clicking a button without anything happening is pretty useless, right? Let's fix that!
-
-
