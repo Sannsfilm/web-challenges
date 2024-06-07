@@ -15,7 +15,7 @@ export default function App() {
   }
 
   // function handleAddTag(newTag) {
-  //   setTags([{ id: uid(), ...newTag }, ...Tag]);
+  //   setTags([{ id: uid(), ...newTag }, ...Tags]);
   // } ??
 
   // function handleDeleteTag(id) {
