@@ -10,7 +10,7 @@ export default function App() {
     setTags((tags) => [...tags, newTag]);
   }
 
-  //   Fungsi ini menerima newTag sebagai argumen.
+  // Fungsi ini menerima newTag sebagai argumen.
   // Menggunakan fungsi pembaruan state setTags dengan callback (tags) => [...tags, newTag].
   // Callback ini mengambil array tags yang ada, lalu mengembalikan array baru yang berisi semua tag yang ada plus newTag.
   // Dengan kata lain, fungsi ini menambahkan newTag ke akhir array tags.
@@ -19,7 +19,7 @@ export default function App() {
     setTags((tags) => tags.filter((tag) => tag !== tagToDelete));
   }
 
-  //   Fungsi ini menerima tagToDelete sebagai argumen.
+  // Fungsi ini menerima tagToDelete sebagai argumen.
   // Menggunakan setTags dengan callback tags.filter((tag) => tag !== tagToDelete).
   // Callback filter membuat array baru yang hanya berisi tag yang tidak sama dengan tagToDelete.
   // Dengan kata lain, fungsi ini menghapus tagToDelete dari array tags.
