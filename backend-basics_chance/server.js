@@ -1,12 +1,11 @@
 import { createServer } from "node:http";
 import Chance from "chance";
 
-const change = new Chance();
-const name = change.name();
-const age = change.age();
-const profession = change.profession();
-
 export const server = createServer((request, response) => {
+  const change = new Chance();
+  const name = change.name();
+  const age = change.age();
+  const profession = change.profession();
   if (request.url === "/") {
     response.statusCode = 200;
     response.end(
