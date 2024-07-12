@@ -13,7 +13,7 @@ Create an api route which returns a character object with random values using `c
 
 You can use the following hints as guideline:
 
-- Create the file structure `pages/api/random-character.js`.
+<!-- - Create the file structure `pages/api/random-character.js`.
 - Switch to `pages/api/random-character.js`; write a handler function which
   - responds with a `200` status code and
   - with a character object containing random information (see example below);
@@ -31,7 +31,7 @@ const character = {
   lastName: chance.last(),
   // ... some more keys here ...
 };
-```
+``` -->
 
 Check your api route:
 

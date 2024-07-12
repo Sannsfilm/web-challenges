@@ -21,6 +21,7 @@ export default function App() {
         <button type="button" onClick={handleMinus}>
           -
         </button>
+
         <button type="button" onClick={handlePuls}>
           +
         </button>
@@ -28,3 +29,4 @@ export default function App() {
     </div>
   );
 }
+

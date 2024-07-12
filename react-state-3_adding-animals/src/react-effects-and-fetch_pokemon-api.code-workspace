@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../react-effects-and-fetch_pokemon-api"
+		},
+		{
+			"path": "../../react-effects-and-fetch_pokemon-api-with-paging"
+		},
+		{
+			"path": "../../react-state-2_colored-number"
+		},
+		{
+			"path": "../../react-state-2_table-reservation"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../react-state-3_tags"
+		},
+		{
+			"path": "../../react-with-arrays_fruits"
+		},
+		{
+			"path": "../../react-with-arrays_users"
+		}
+	]
+}
